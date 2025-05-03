@@ -6,6 +6,7 @@
     <title>Sreeja's Portfolio</title>
 </head>
 <body>
+    <header>
     <h1>Welcome to My portfolio</h1>
 
     <a href="">
@@ -20,29 +21,34 @@
     <a href="">
     <button>contact</button>
     </a>
-    <h1>Sreeja Devireddy</h1>
-    <img src="myimg.jpg" width="100" alt="a photo of me"
-    <br>
-    <p>
+    </header>
+    <main>
+       <section id="about">
+        <h1>Sreeja Devireddy</h1>
+        <img src="myimg.jpg" width="100" alt="a photo of me"
+        <br>
+        <p>
         I am passionate web developer with focus on front end technologies.
-    </p>
-    <p>
+        </p>
+        <p>
         I am currently doing my B.Tech in <em>Gitam univeristy</em>,vishakapatnam.
-    </p>
-    <p>
+        </p>
+        <p>
         I am learning web development from <br>
         <i>code with swaroop</i>
-    </p>
-    <p>you can <strong>click here</strong> to checkout what i learnt in html,css,js.</p>
-    <h1>My Skills</h1>
-    <Ol><li>python basics</li>
-        <li>c basics</li>
-        <li>java basics</li>
-        <li>html basics</li>
-        <li>css basics</li>
-    </Ol>
-    <table border=""2>
+       </section>
+       <section id="My SKills">
+        <h1>My Skills</h1>
+        <Ol><li>python basics</li>
+            <li>c basics</li>
+            <li>java basics</li>
+            <li>html basics</li>
+            <li>css basics</li>
+        </Ol>
+       </section>
+       <section id="projects">
         <h1>My Projects</h1>
+        <table border=""2>
         <tr>
             <th>project</th>
             <th>description</th>
@@ -56,37 +62,38 @@
             <td>I have built a simple calculator in the course by Code With Swaroop</td>
         </tr>
     </table>
-
-    <h1>Contact Me</h1>
-    <p>Feel free to get in touch with me using the below form...</p>
-    <form>
-        <label for="name">Name:</label>
-        <input type="text">
-        <br>
-        <label for="email">Email:</label>
-        <input type="email">
-        <br>
-        <b>choose your gender</b>
-        
-        <input type="radio"id="male">
-        <label for="male">Male</label>
-        <input type="radio"id="female">
-        <label for="female">Female</label>
-        <br>
-        <b>Select your intresets:</b>
-        <input type="checkbox" id="coding" value="coding">
-        <label for="coding">Coding</label>
-        <input type="checkbox" id="reading" value="reading">
-        <label for="reading">Reading</label>
-        <br>
-        <label for="bio">Bio(up to 200 characters)</label>
-        <input type="text">
-        <br>
-        <button type="submit">Submit</button>
-
-
-    </form>
-
+       </section>
+       <section id="contact">
+        <h1>Contact Me</h1>
+        <p>Feel free to get in touch with me using the below form...</p>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text">
+            <br>
+            <label for="email">Email:</label>
+            <input type="email">
+            <br>
+            <b>choose your gender</b>
+            <input type="radio"id="male">
+            <label for="male">Male</label>
+            <input type="radio"id="female">
+            <label for="female">Female</label>
+            <br>
+            <b>Select your intresets:</b>
+            <input type="checkbox" id="coding" value="coding">
+            <label for="coding">Coding</label>
+            <input type="checkbox" id="reading" value="reading">
+            <label for="reading">Reading</label>
+            <br>
+            <label for="bio">Bio(up to 200 characters)</label>
+            <input type="text">
+            <br>
+            <button type="submit">Submit</button>
+        </form>
+       </section>
+    </main>
+    <footer>
+        <P>@2025 My portfolio</P>
+    </footer>
 </body>
-
 </html>
