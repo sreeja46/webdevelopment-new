@@ -1,0 +1,59 @@
+*{
+    font-family:monospace;
+}
+body{
+    margin:0;
+    font-size:15px;
+    background-color: #f0f8ff;
+}
+header{
+    height:100vh;
+    color:white;
+   background-color: rgb(91, 184, 221);
+}
+
+h1{
+    font-size:50px;
+    color:burlywood;
+}
+header h1{
+    margin:0;
+    color:white;
+}
+.button{
+    height:40px;
+    width:140px;
+    border:none;
+    border-radius:10px;
+    cursor:pointer;
+}
+.button:hover{
+    color:white;
+    background-color: burlywood;
+}
+img{
+    height:150px;
+}
+main{
+    padding:20px;
+}
+section{
+    height:100vh;
+    border:1px solid grey;
+    border-radius:20px;
+    margin-bottom: 20px;
+}
+.submit{
+    height:40px;
+    width:140px;
+    border:none;
+    border-radius:10px;
+    cursor:pointer;
+    color:white;
+    background-color:rgb(91, 184, 221)
+
+}
+.submit:hover{
+
+    background-color:rgb(179, 186, 189) ;
+}
