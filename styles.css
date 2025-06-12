@@ -33,12 +33,17 @@ a{
     height:40px;
     width:140px;
     border:none;
+    transition: all 0.3s ease-out 0.2s;
     border-radius:10px;
     cursor:pointer;
+    
 }
 .button:hover{
     color:white;
-    background-color: burlywood;
+    background-color: rgb(80, 16, 158);
+    transform:translatey(+5px);
+    
+    
 }
 img{
     height:150px;
@@ -65,10 +70,11 @@ form div{
     width:140px;
     border:none;
     border-radius:10px;
+    transition: all 3s ease-out 0.2s;
     cursor:pointer;
     color:white;
     background-color:rgb(91, 184, 221)
-
+    
 }
 .submit:hover{
  background-color: green;
